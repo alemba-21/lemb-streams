@@ -204,7 +204,7 @@ getMovies(API_URL);
 
 
 function showMovies(data) {
-    main.innerHTML = '<p>&copy; 2022 alemba</p>';
+    // main.innerHTML = '<p>&copy; 2022 alemba</p>';
 
     data.map(movie => {
         const {title, poster_path, vote_average, overview, id} = movie;
